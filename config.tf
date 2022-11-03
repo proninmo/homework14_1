@@ -49,9 +49,9 @@ resource "yandex_vpc_network" "network-111" {
   name = "network111"
 }
 
-resource "yandex_vpc_subnet" "subnet-1" {
+resource "yandex_vpc_subnet" "subnet-111" {
   name           = "subnet111"
   zone           = "ru-central1-a"
-  v4_cidr_blocks = ["10.4.4.0/24"]
+  v4_cidr_blocks = ["10.4.4.0/28"]
   network_id     = "${yandex_vpc_network.network-111.id}"
 }
