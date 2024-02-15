@@ -32,7 +32,7 @@ resource "yandex_compute_instance" "vm-1" {
 
   boot_disk {
     initialize_params {
-      image_id = "fd8egv6phshj1f64q94n"
+      image_id = "fd8egv6phshj1f64q94n112s"
     }
   }
 
