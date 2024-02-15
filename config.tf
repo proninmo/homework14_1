@@ -8,6 +8,7 @@ terraform {
 }
 
 // Configure the Yandex.Cloud provider
+//test commit
 provider "yandex" {
 #  token                    = ""
   service_account_key_file = "./key.json"
